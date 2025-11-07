@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 브라우저 탭 제목 -->
+    <title>⚔️ Life R.P.G</title>
+
+    <!-- 파비콘 (public/ 안에 넣으면 자동 인식) -->
+    <link rel="icon" type="image/png" href="/item/파멸의검_에픽.png" />
+
+    <!-- 배경용 폰트 및 메타 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+    <meta name="theme-color" content="#2d1a0f">
+  </head>
+
+  <body style="margin:0; background: radial-gradient(#2d1a0f, #1a0f08);">
+    <!-- 초기 로딩 화면 -->
+    <div id="root">
+      <div style="
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+        height:100vh;
+        color:#ffcc66;
+        font-family:'Noto Sans KR', sans-serif;
+      ">
+        <h1 style="
+          font-size:48px;
+          letter-spacing:3px;
+          text-shadow:0 0 15px rgba(255,204,102,0.6);
+        ">⚔️ Life R.P.G</h1>
+        <p style="color:#ffdca8;">Loading game...</p>
+      </div>
+    </div>
+
+    <!-- React 엔트리 포인트 -->
+    <script type="module" src="/src/main.jsx"></script>
+
+    <!-- (선택) 배경음악 추가 -->
+    <!-- 
+    <audio autoplay loop volume="0.3">
+      <source src="/bgm/medieval_theme.mp3" type="audio/mpeg">
+    </audio> 
+    -->
+  </body>
+</html>
